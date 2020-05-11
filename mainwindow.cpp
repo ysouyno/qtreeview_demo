@@ -11,7 +11,7 @@ MainWindow::MainWindow(LogItemModel *model, QWidget *parent)
     view->setRootIsDecorated(false);
     setCentralWidget(view);
 
-    auto test_add_log = [this] {
+    /*auto test_add_log = [this] {
         m_model->add_log("msg");
         m_model->update(1);
     };
@@ -20,7 +20,7 @@ MainWindow::MainWindow(LogItemModel *model, QWidget *parent)
     timer->setInterval(1000);
     timer->setSingleShot(false);
     QObject::connect(timer, &QTimer::timeout, test_add_log);
-    timer->start();
+    timer->start();*/
 }
 
 MainWindow::~MainWindow()

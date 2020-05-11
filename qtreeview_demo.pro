@@ -18,11 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     logitemmodel.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    windebugmonitor.cpp
 
 HEADERS += \
     logitemmodel.h \
-    mainwindow.h
+    mainwindow.h \
+    windebugmonitor.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
